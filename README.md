@@ -13,6 +13,13 @@ Access the wesite on https://product-management-dashboard-six.vercel.app/
 Access the demo video in github repo or on https://drive.google.com/drive/folders/1B6d_F_rdLra-K0TUpwulyI_cYJCEAeHQ?usp=sharing 
 
 ---
+
+##  Dummy Admin Credentials
+For evaluation, use the following created dummy admin credentials:
+* **Email**: `newadmin@test.com`
+* **Password**: `admin123` *(Note: Securely hashed in DB via Bcrypt)*
+
+---
 ##  Objective
 To develop a high-performance administrative interface that ensures fast page load times, improved SEO through Server-Side Rendering, and a secure, efficient interface for administrators to manage product data.
 
@@ -76,7 +83,3 @@ A sophisticated multi-tier access system designed for privacy and security:
 
 ---
 
-###  Dummy Admin Credentials
-For evaluation, use the following created dummy admin credentials:
-* **Email**: `newadmin@test.com`
-* **Password**: `admin123` *(Note: Securely hashed in DB via Bcrypt)*
