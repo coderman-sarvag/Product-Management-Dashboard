@@ -2,7 +2,7 @@ import ProductsClient from "./ProductsClient";
 
 async function getProducts() {
   
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://product-management-dashboard-six.vercel.app/';
   
   const res = await fetch(`${baseUrl}/api/products`, {
     cache: 'no-store', 
