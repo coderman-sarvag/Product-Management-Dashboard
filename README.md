@@ -78,5 +78,5 @@ A sophisticated multi-tier access system designed for privacy and security:
 
 ###  Dummy Admin Credentials
 For evaluation, use the following created dummy admin credentials:
-* **Email**: `admin@system.com`
+* **Email**: `newadmin@test.com`
 * **Password**: `admin123` *(Note: Securely hashed in DB via Bcrypt)*
