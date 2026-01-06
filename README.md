@@ -4,7 +4,7 @@ A high-integrity, server-rendered (SSR) administrative ecosystem built with **Ne
 
 ---
 ## Live Deployment 
-Access the wesite on https://product-management-dashboard-steel.vercel.app/
+Access the wesite on https://product-management-dashboard-six.vercel.app/
 ##  Objective
 To develop a high-performance administrative interface that ensures fast page load times, improved SEO through Server-Side Rendering, and a secure, efficient interface for administrators to manage product data.
 
