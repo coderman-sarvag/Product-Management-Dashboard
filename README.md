@@ -3,8 +3,16 @@
 A high-integrity, server-rendered (SSR) administrative ecosystem built with **Next.js 14**. This dashboard provides granular control over product lifecycles with a focus on security, data transparency, and advanced activity tracking.
 
 ---
+
 ## Live Deployment 
 Access the wesite on https://product-management-dashboard-six.vercel.app/
+
+---
+
+## Demo video 
+Access the demo video in github repo or on https://drive.google.com/drive/folders/1B6d_F_rdLra-K0TUpwulyI_cYJCEAeHQ?usp=sharing 
+
+---
 ##  Objective
 To develop a high-performance administrative interface that ensures fast page load times, improved SEO through Server-Side Rendering, and a secure, efficient interface for administrators to manage product data.
 
