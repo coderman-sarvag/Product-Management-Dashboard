@@ -1,10 +1,10 @@
-# 📘 Admin User Guide
+# Admin User Guide
 
 Welcome to the **Next-Gen Inventory Logic** dashboard. This guide explains how to use the specialized features of this system, including the request hierarchy, secure logging, and product management.
 
 ---
 
-## 🔐 1. Access & Authentication
+##  1. Access & Authentication
 
 ### Requesting Access
 1.  Navigate to the login page.
@@ -19,7 +19,7 @@ Welcome to the **Next-Gen Inventory Logic** dashboard. This guide explains how t
 
 ---
 
-## 📝 2. Managing Products
+##  2. Managing Products
 
 ### Creating Products
 * Click the **+ Create Product** button on the dashboard.
@@ -34,7 +34,7 @@ Welcome to the **Next-Gen Inventory Logic** dashboard. This guide explains how t
 
 ---
 
-## 📜 3. Understanding Update Logs
+##  3. Understanding Update Logs
 
 To view a product's history, click the **View Logs** button in the Product Details pane.
 
@@ -50,7 +50,7 @@ To view a product's history, click the **View Logs** button in the Product Detai
 
 ---
 
-## 👑 4. Super Admin Capabilities
+##  4. Super Admin Capabilities
 
 If you are the **Super Admin**, you have a specialized "Requests" tab in your sidebar:
 
@@ -60,7 +60,7 @@ If you are the **Super Admin**, you have a specialized "Requests" tab in your si
 
 ---
 
-## 📊 5. Dashboard Analytics
+##  5. Dashboard Analytics
 
 Use the top section of the dashboard to monitor your inventory at a glance:
 * **Stock Levels (Bar Chart)**: Identify which products are running low on stock.
@@ -68,7 +68,7 @@ Use the top section of the dashboard to monitor your inventory at a glance:
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 * **"Invalid Date" in Logs**: Ensure you are using the latest version of the dashboard where the `at` field is correctly mapped.
 * **Cannot access Dashboard**: Ensure your browser accepts cookies, as the **HTTP-Only Cookie** is required for authentication.
