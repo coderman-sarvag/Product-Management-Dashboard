@@ -18,8 +18,8 @@ Before starting, ensure you have the following installed and configured:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd <your-project-folder>
+git clone https://github.com/coderman-sarvag/Product-Management-Dashboard
+cd Product-Management-Dashboard
 ```
 ### 2. Install Dependencies
 This will install all necessary libraries, including Next.js, Mongoose, Zod, Bcryptjs, and Lucide React.
@@ -30,16 +30,16 @@ npm install
 Create a .env.local file in the root directory. This file is ignored by git for security. Add the following variables:
 ```Code
 # MongoDB Connection
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/your_db
+MONGODB_URI=mongodb+srv://cdc_app:6QYi5FrnWxRvy1bm@cdc-dashboard-cluster.usoako3.mongodb.net/cdc_dashboard?appName=cdc-dashboard-cluster
 
 # Cloudinary API Credentials
-CLOUDINARY_CLOUD_NAME=your_name
-CLOUDINARY_API_KEY=your_key
-CLOUDINARY_API_SECRET=your_secret
+CLOUDINARY_CLOUD_NAME=dedvgbkwh
+CLOUDINARY_API_KEY=266527124531397
+CLOUDINARY_API_SECRET=b-ZmaGd_g2tyG5LU1AjL4C0XbcY
 
 # Authentication & Security
-JWT_SECRET=your_ultra_secure_random_string
-SUPER_ADMIN_EMAIL=admin@system.com
+JWT_SECRET=supersecret_admin_key
+SUPER_ADMIN_EMAIL=newadmin@test.com
 ```
 
 ## Database & Security Setup
