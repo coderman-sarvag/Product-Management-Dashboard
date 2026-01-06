@@ -62,7 +62,7 @@ Start the local development server with hot-reloading:
 ```bash
 npm run dev
 ```
-Access the dashboard at: https://product-management-dashboard-steel.vercel.app/
+Access the dashboard at: https://product-management-dashboard-six.vercel.app/
 ### Production Build
 To test the optimized production environment:
 ```bash
