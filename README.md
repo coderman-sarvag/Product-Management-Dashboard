@@ -3,13 +3,14 @@
 A high-integrity, server-rendered (SSR) administrative ecosystem built with **Next.js 14**. This dashboard provides granular control over product lifecycles with a focus on security, data transparency, and advanced activity tracking.
 
 ---
-
-## 🎯 Objective
+## Live Deployment 
+Access the wesite on https://product-management-dashboard-steel.vercel.app/
+##  Objective
 To develop a high-performance administrative interface that ensures fast page load times, improved SEO through Server-Side Rendering, and a secure, efficient interface for administrators to manage product data.
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Advanced Update Logging (Audit History)
 Unlike standard dashboards, this system features a **detailed activity log** implemented in the backend logic:
@@ -33,7 +34,7 @@ A sophisticated multi-tier access system designed for privacy and security:
 
 ---
 
-## 🛡️ Security Architecture
+##  Security Architecture
 
 * **Secure Authentication**: Passwords are securely stored in MongoDB using **bcryptjs** for one-way hashing.
 * **HTTP-Only Cookies**: Session management is handled via HTTP-only cookies, ensuring no one can directly access the dashboard via URL without a verified administrative login.
@@ -41,7 +42,7 @@ A sophisticated multi-tier access system designed for privacy and security:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 | :--- | :--- |
@@ -57,7 +58,7 @@ A sophisticated multi-tier access system designed for privacy and security:
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
 1. **Admin Request**: A user requests dashboard access; the request is stored in MongoDB.
 2. **Super Admin Approval**: The Super Admin reviews and approves the request (this view is hidden from other admins).
@@ -67,7 +68,7 @@ A sophisticated multi-tier access system designed for privacy and security:
 
 ---
 
-### 🔑 Dummy Admin Credentials
+###  Dummy Admin Credentials
 For evaluation, use the following created dummy admin credentials:
 * **Email**: `admin@system.com`
 * **Password**: `admin123` *(Note: Securely hashed in DB via Bcrypt)*
