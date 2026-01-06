@@ -27,15 +27,15 @@ This will install all necessary libraries, including Next.js, Mongoose, Zod, Bcr
 npm install
 ```
 ### 3. Environment Configuration
-Create a .env.local file in the root directory. This file is ignored by git for security. Add the following variables:
+Create a .env.local file in the root directory. This file is ignored by git for security. Add the following variables(the values are hidden for security purpose.):
 ```Code
 # MongoDB Connection
-MONGODB_URI=mongodb+srv://cdc_app:6QYi5FrnWxRvy1bm@cdc-dashboard-cluster.usoako3.mongodb.net/cdc_dashboard?appName=cdc-dashboard-cluster
+MONGODB_URI=<mongo db connection uri>
 
 # Cloudinary API Credentials
-CLOUDINARY_CLOUD_NAME=dedvgbkwh
-CLOUDINARY_API_KEY=266527124531397
-CLOUDINARY_API_SECRET=b-ZmaGd_g2tyG5LU1AjL4C0XbcY
+CLOUDINARY_CLOUD_NAME=<name>
+CLOUDINARY_API_KEY=<api_key>
+CLOUDINARY_API_SECRET=<secret>
 
 # Authentication & Security
 JWT_SECRET=supersecret_admin_key
