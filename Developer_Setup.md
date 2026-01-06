@@ -1,10 +1,10 @@
-# 🛠️ Installation & Developer Setup
+#  Installation & Developer Setup
 
 Follow these instructions to get the **Next-Gen Inventory Dashboard** running on your local machine.
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before starting, ensure you have the following installed and configured:
 * **Node.js**: v18.x or higher
@@ -14,7 +14,7 @@ Before starting, ensure you have the following installed and configured:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 ```bash
