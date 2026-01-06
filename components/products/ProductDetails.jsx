@@ -79,7 +79,7 @@ export default function ProductDetails({ product, onUpdate, onDelete }) {
   if (!product) return null;
 
   return (
-    // CHANGED: min-h-full instead of h-full ensures the box grows with content
+    
     <div className="bg-slate-950 p-6 rounded-xl min-h-full w-full">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-semibold">
@@ -227,7 +227,7 @@ export default function ProductDetails({ product, onUpdate, onDelete }) {
           title="Delete Product"
           message={isDeleting ? "Deleting..." : "This action cannot be undone."}
           onCancel={() => !isDeleting && setShowDeleteConfirm(false)}
-          isLoading={isDeleting} // Ensure your modal uses this prop to disable buttons
+          isLoading={isDeleting} 
           onConfirm={async () => {
             setIsDeleting(true);
             try {
