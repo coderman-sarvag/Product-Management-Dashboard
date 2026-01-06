@@ -67,14 +67,6 @@ A sophisticated multi-tier access system designed for privacy and security:
 
 ---
 
-## 📝 Deliverables
-1. **GitHub Repository**: Complete source code of the server-rendered dashboard.
-2. **Working Application**: Fully functional SSR dashboard with management, charts, and image handling.
-3. **Live Deployment**: Publicly accessible deployed version of the application.
-4. **Demo Video**: A 3–5 minute walkthrough demonstrating core features and the administrative workflow.
-
----
-
 ### 🔑 Dummy Admin Credentials
 For evaluation, use the following created dummy admin credentials:
 * **Email**: `admin@system.com`
