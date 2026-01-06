@@ -96,9 +96,6 @@ export async function PATCH(req, { params }) {
     return Response.json({ message: "Server error" }, { status: 500 });
   }
 }
-
-
- 
  
 export async function DELETE(req, { params }) {
   await connectDB();
