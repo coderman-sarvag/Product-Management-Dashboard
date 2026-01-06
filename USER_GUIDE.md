@@ -4,13 +4,11 @@ Welcome to the **Next-Gen Inventory Logic** dashboard. This guide explains how t
 
 ---
 
-##  1. Access & Authentication
----
-
 ### Demo:
 Demo video available on https://drive.google.com/drive/folders/1B6d_F_rdLra-K0TUpwulyI_cYJCEAeHQ?usp=drive_link
 
 ---
+##  1. Access & Authentication
 
 ### Requesting Access
 1.  Navigate to the login page.
