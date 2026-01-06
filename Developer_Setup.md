@@ -28,6 +28,7 @@ npm install
 ```
 ### 3. Environment Configuration
 Create a .env.local file in the root directory. This file is ignored by git for security. Add the following variables(the values are hidden for security purpose.):
+
 ```Code
 # MongoDB Connection
 MONGODB_URI=<mongo db connection uri>
@@ -44,13 +45,19 @@ SUPER_ADMIN_EMAIL=newadmin@test.com
 
 ## Database & Security Setup
 ### MongoDB Initialization
+
 The project uses Mongoose for schema enforcement. On your first successful product creation, the products collection and nested logs array will be initialized automatically in your database.
+
 ---
 ### Bcrypt Hashing
+
 Passwords are never stored as plain text. The system automatically applies Bcryptjs one-way hashing during the admin approval process to ensure data security.
+
 ---
+
 ## Running the Application
 ### Development Mode
+
 Start the local development server with hot-reloading:
 ```bash
 npm run dev
