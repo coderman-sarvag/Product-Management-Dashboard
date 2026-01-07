@@ -27,7 +27,7 @@ Demo video available on https://drive.google.com/drive/folders/1B6d_F_rdLra-K0TU
 
 ### Creating Products
 * Click the **+ Create Product** button on the dashboard.
-* Fill in the name, price, and stock.
+* Fill in the name, price, status, description and stock and an image for better visuals of the product.
 * **Validation**: The system uses **Zod** to ensure data integrity. If you enter a negative price or invalid characters, the system will prevent the save and highlight the error.
 * **Images**: Uploaded images are processed via **Cloudinary**. Ensure your images are in standard formats (JPG, PNG).
 
